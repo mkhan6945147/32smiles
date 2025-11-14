@@ -1,0 +1,598 @@
+
+
+/* General Navbar Styling */
+.navbar {
+  background-color: #ffffff !important;
+  background: linear-gradient(to right, #b3e5fc, #e3f2fd,  #b3e5fc);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 0.7rem 1rem;
+  transition: all 0.3s ease;
+}
+
+/* Brand (🦷 32smiles) */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: black !important;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand:hover {
+  color: blue !important;
+  text-shadow: 0 0 5px rgba(231, 84, 128, 0.3);
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+  font-weight: 500;
+  padding: 0.7rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: blue !important;
+  border-radius: 8px;
+}
+#button3{
+  border: none;
+  width: 190px;
+  height: 35px;
+   background-color: #007bff;
+  color: white;
+  border-radius: 25px;
+  font-weight: 300px;
+  transition: background-color 0.3s ease;
+
+}
+#button3:hover{
+   background-color: blue !important;
+}   
+
+
+#make2{
+  border: none !important;
+  width: 180px !important;
+  height: 40px !important;
+  background-color: #007bff !important;
+  color: white !important;
+  margin-left: 30px !important;
+  
+}
+#make2:hover{
+  background-color: blue !important;
+  color: white !important;
+}
+/* Dropdown Menu */
+.dropdown-menu {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+  color: #555 !important;
+  font-weight: 500;
+  padding: 0.6rem 1.2rem;
+}
+
+.dropdown-item:hover {
+  background-color: #ffe6ee;
+  color: blue !important;
+}
+
+/* Toggler Button (Mobile Menu) */
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+  .navbar-nav {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+  }
+
+  .nav-link {
+    text-align: center;
+  }
+}
+
+
+.section{
+    padding: 5rem 2rem;
+}
+.home{
+    background:url(../32smiles/pictures/cover\ image.jpg) no-repeat ;
+    background-size: cover;
+    background-position: center;
+    
+}
+.home .content{
+    width: 50rem;
+    padding: 2rem;
+}
+.home .content h3{
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 400;
+    font-family:  sans-serif;
+
+}
+
+.home{
+    background-position: left;
+}
+.home .content{
+    width: auto;
+}
+
+
+
+
+.section .about{
+  
+    margin-top: 25px;
+}
+.about .row{
+    min-height: 60vh;
+    margin: 20px;
+    
+}
+  
+ 
+
+.heading{
+  
+    color:blue;
+    display: flex;
+     justify-content: center;
+     font-family: Georgia ;
+}
+.about .content span{
+  font-size: 2rem;
+
+}
+.about .content h3{
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+#paragraph{
+  color: rgb(100, 98, 98) !important;
+}
+
+#italic{
+  margin-top: 10px !important;
+  margin-bottom: 25px !important;
+  font-style: italic !important;
+  color: blue;
+  font-family: Georgia !important;
+}
+/* Custom styling for cards */
+.cards-section {
+  background: linear-gradient(to right, #e0f7fa, #e1f5fe);
+}
+
+.custom-card {
+  border: none;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.custom-card img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.custom-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  color: #007bff;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 18px;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: blue !important;
+}
+#research .card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#research .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+#research .card img {
+  height: 200px;
+  
+  object-fit: cover;
+}
+#research{
+  background: url(../32smiles/pictures/researchbg2.jpeg)no-repeat;
+  background-color: #007bff;
+}
+#h2{
+  font-family: Georgia, 'sans serif';
+  color: blue !important;
+  font-weight: 600 !important;
+  
+}
+#p{
+  color: #007bff;
+}
+
+#reaearch-work{
+  background: linear-gradient(to bottom, #ffffff,#87CEFA) !important;
+}
+#research-work .research-item {
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+#p2{
+  color: #007bff !important;
+}
+
+#research-work .research-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+#research-work .icon i {
+  transition: transform 0.3s ease;
+}
+
+#research-work .research-item:hover .icon i {
+  transform: rotate(10deg) scale(1.1);
+}
+ /* FAQ css */
+#p3{
+  color: #007bff !important;
+}
+.footer {
+    background: linear-gradient(to right, #b3e5fc, #e3f2fd,  #b3e5fc);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+     color: #003366;
+}
+
+.footer h5,
+.footer h6 {
+  color: #007bff;
+}
+
+.footer p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.footer-link {
+  color: #004080;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #007bff;
+}
+
+.btn-appointment {
+  background-color: #007bff;
+  color: white;
+  border-radius: 25px;
+  padding: 8px 20px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.btn-appointment:hover {
+  background-color: #0056b3;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #004080;
+  font-size: 1.2rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+  transform: scale(1.1);
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+  .footer {
+    text-align: center;
+  }
+
+  .footer .text-start {
+    text-align: center !important;
+  }
+
+  .btn-appointment {
+    margin-top: 10px;
+  }
+
+  .social-icons a {
+    margin: 0 8px;
+  }
+}
+ /* contact us page */
+ /* ===== Contact Page Styles ===== */
+body {
+  background: linear-gradient(to bottom, #e3f2fd, #ffffff);
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-blue {
+  color: #007bff;
+  font-family: Georgia;
+}
+
+/* Form Card */
+.card {
+  background: linear-gradient(to right, #b3e5fc, #e3f2fd,  #b3e5fc);
+  background-color: #ffffff;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Buttons */
+.btn-blue {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-blue:hover {
+  background-color: #0056b3;
+  transform: scale(1.03);
+}
+
+/* Contact Info */
+.contact-info {
+  
+  background: linear-gradient(to right, #d7eff9, #e3f2fd,  #d9f0fa);
+  background-color: #f8fbff;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+.contact-info p {
+  margin-bottom: 0.8rem;
+  font-weight: 500;
+}
+
+/* Social Icons */
+.social-icons a {
+  display: inline-block;
+  font-size: 1.3rem;
+  margin-right: 12px;
+  color: #007bff;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons a:hover {
+  color: #0056b3;
+  transform: scale(1.2);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .contact-info {
+    text-align: center;
+  }
+  .social-icons a {
+    margin: 0 8px;
+  }
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .btn-blue {
+    font-size: 0.9rem;
+  }
+}
+.problem-card {
+  border: none;
+  cursor: pointer;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.problem-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.7s ease;
+  border-radius: 1.5rem;
+}
+
+.problem-card:hover img {
+  transform: scale(1.2) rotate(2deg);
+  filter: brightness(70%);
+}
+
+.problem-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, rgba(0, 110, 255, 0.75), rgba(0, 200, 255, 0.6));
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  border-radius: 1.5rem;
+}
+
+.problem-card:hover .problem-content {
+  opacity: 1;
+}
+
+.problem-content i {
+  color: #fff;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  transition: transform 0.4s ease, text-shadow 0.4s ease;
+}
+
+.problem-card:hover .problem-content i {
+  transform: scale(1.3);
+  text-shadow: 0 0 25px rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 576px) {
+  .problem-content h5 {
+    font-size: 1rem;
+  }
+  .problem-content p {
+    font-size: 0.8rem;
+  }
+}
+/* oral hygiene */
+.tip-card {
+  transition: all 0.4s ease;
+  border: 2px solid transparent;
+}
+
+.tip-card:hover {
+  transform: translateY(-8px);
+  border-color: #0d6efd;
+  background: linear-gradient(180deg, #ffffff, #eaf3ff);
+  box-shadow: 0 8px 20px rgba(13, 110, 253, 0.2);
+}
+
+
+
+.tip-card:hover .tip-icon img {
+  transform: scale(1.1);
+}
+
+ /* treatment */
+ /* ---------------------------
+   Dental Treatments Section
+----------------------------*/
+#dental-treatments {
+  background: linear-gradient(180deg, #eaf6ff 0%, #ffffff 100%);
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+#dental-treatments h2 {
+  font-weight: 700;
+  color: #007bff;
+  letter-spacing: 0.5px;
+}
+
+#dental-treatments p {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+/* Treatment Cards */
+.treatment-card {
+  transition: all 0.4s ease;
+  border: 1px solid #e2ecf5;
+  background-color: #0d6efd;
+  cursor: pointer;
+}
+
+.treatment-card img {
+  border-radius: 15px;
+  transition: transform 0.5s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.treatment-card:hover {
+  transform: translateY(-8px);
+  background: linear-gradient(135deg, #a4d8fb 0%, #8bdafc 100%);
+  box-shadow: 0 10px 25px rgba(0, 123, 255, 0.15);
+  border-color: #b3e0ff;
+}
+
+.treatment-card:hover img {
+  transform: scale(1.05);
+}
+
+.treatment-card h5 {
+  color: #007bff;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.treatment-card p {
+  color: #6c757d;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #dental-treatments {
+    padding: 60px 0;
+  }
+
+  .treatment-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .treatment-card img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  #dental-treatments h2 {
+    font-size: 1.8rem;
+  }
+
+  .treatment-card p {
+    font-size: 0.9rem;
+  }
+}
+
+ 
