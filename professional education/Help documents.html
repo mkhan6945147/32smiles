@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Helpdocuments | 32smiles</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+     <link rel="stylesheet" href="../style.css">
+  <style>
+    .card {
+  border: solid 1px;
+  border-radius: 15px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.card img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color:#004aad;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: black;
+}
+
+.card .btn {
+  margin-top: 10px;
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.card .btn.btn-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+section h2{
+  font-weight: 700;
+  color: #004aad;
+}
+  </style>
+</head>
+<body>
+
+  <!-- Navbar Start -->
+ 
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">🦷 32smiles</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto">
+
+        <!-- Home -->
+        <li class="nav-item">
+          <a class="nav-link active" href="../index.html">Home</a>
+        </li>
+
+        <!-- Professional Education Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="../professional education/" id="professionalDropdown" role="button" data-bs-toggle="dropdown">
+            Professional Education
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../professional education/findcourses.html">Find Courses</a></li>
+            <li><a class="dropdown-item" href="../professional education/helpdocuments.html">Help Documents</a></li>
+            <li><a class="dropdown-item" href="../professional education/faculty resources.html">Faculty Resources</a></li>
+            <li><a class="dropdown-item" href="../professional education/Student resources.html">Student Resources</a></li>
+            <li><a class="dropdown-item" href="../professional education/Case studies.html">Case Studies</a></li>
+          </ul>
+        </li>
+
+        <!-- Patient Education Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="../32smiles/patientdropdown/" id="patientDropdown" role="button" data-bs-toggle="dropdown">
+            Patient Education
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../32smiles/patientdropdown/oralhygienetips.html">Oral Hygiene Tips</a></li>
+            <li><a class="dropdown-item" href="../32smiles/patientdropdown/Dentalproblem.html">Common Dental Problems</a></li>
+            <li><a class="dropdown-item" href="../patient education/dental treatment.html">Treatment Procedures</a></li>
+            <li><a class="dropdown-item" href="../32smiles/patientdropdown/FAQs.html">FAQs</a></li>
+          </ul>
+        </li>
+
+        <!-- Research Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="researchDropdown" role="button" data-bs-toggle="dropdown">
+            Research
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../research/medialibrary.html">Media Library</a></li>
+            <li><a class="dropdown-item" href="../research/documents.html">Documents</a></li>
+          </ul>
+        </li>
+
+        <!-- Products Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="../Products/" id="productsDropdown" role="button" data-bs-toggle="dropdown">
+            Products
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../products/toothpaste.html">Toothpastes</a></li>
+            <li><a class="dropdown-item" href="../products/toothbrushes.html">Toothbrushes</a></li>
+            <li><a class="dropdown-item" href="../products/kidsproducts.html">Kids' Products</a></li>
+            <li><a class="dropdown-item" href="../products/electricalaccessories.html">Electrical Accessories</a></li>
+          </ul>
+        </li>
+
+        <!-- Site Map -->
+        <li class="nav-item">
+          <a class="nav-link " href="../sitemap.html">Site Map</a>
+        </li>
+
+        <!-- Contact Us -->
+        <li class="nav-item">
+          <a class="nav-link" href="../contact.html">Contact Us</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+  
+          <a href="contact.html" class="btn btn-primary text-decoration-none" style="font-size: .80rem; display: flex; justify-content: center; align-items: center; font-weight: bold; height: 35px; margin-top: 6px; margin-left: 15px; width: 200px;" >Make Appointments</a>
+
+  
+  
+ </nav>
+<!-- Navbar End -->
+
+
+<section class="section-help py-5 bg-white">
+  <div class="container">
+    <h2 class="text-center mb-4 fw-bold" id="h2">Help Documents</h2>
+    <p class="text-center text-muted" style="color: black;font-size: 1.1rem;max-width: 700px;margin: 15px auto 0;" id="p3">Explore our help resources designed to guide students, professionals, and faculty. Access manuals, setup guides, and FAQs to make the most of your dental learning experience.</p>
+
+
+    <div class="row mt-5 g-4">
+  <!-- Card 1 -->
+  <div class="col-md-4">
+    <div class="card h-100 shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title">User Guide</h5>
+        <p class="card-text">Step-by-step instructions for new users on how to sign up, log in, explore courses, and personalize their learning experience.</p>
+        <a href="../professional education/helpdocuments.html" class="btn btn-primary">Learn More</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="col-md-4">
+    <div class="card h-100 shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title">Faculty Handbook</h5>
+        <p class="card-text">Comprehensive guide for instructors on managing classes, uploading materials, and interacting with students on the portal.</p>
+        <a href="../professional education/helpdocuments.html" class="btn btn-primary">Learn More</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="col-md-4">
+    <div class="card h-100 shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title">Course Development Guide</h5>
+        <p class="card-text">Learn how to create and structure dental courses, include assessments, and use media to enhance the learning process.</p>
+        <a href="../professional education/helpdocuments.html" class="btn btn-primary">Learn More</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="col-md-4">
+    <div class="card h-100 shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title">Student Orientation</h5>
+        <p class="card-text">An overview of tools and resources available for students including how to track progress and get academic support.</p>
+        <a href="../professional education/helpdocuments.html" class="btn btn-primary">Learn More</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 5 -->
+  <div class="col-md-4">
+    <div class="card h-100 shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title">Exam & Grading Policy</h5>
+        <p class="card-text">Understand the evaluation process, grading criteria, and retake options for online and in-person assessments.</p>
+        <a href="../professional education/helpdocuments.html" class="btn btn-primary">Learn More</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 6 -->
+  <div class="col-md-4">
+    <div class="card h-100 shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title">Technology Setup</h5>
+        <p class="card-text">Get help with system requirements, browser support, and configuring your devices for optimal learning performance.</p>
+        <a href="../professional education/helpdocuments.html" class="btn btn-primary">Learn More</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 7 -->
+  <div class="col-md-4">
+    <div class="card h-100 shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title">Library Access Guide</h5>
+        <p class="card-text">Find out how to use the digital library, search academic journals, and borrow physical materials from our partner institutions.</p>
+        <a href="../professional education/helpdocuments.html" class="btn btn-primary">Learn More</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 8 -->
+  <div class="col-md-4">
+    <div class="card h-100 shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title">Troubleshooting FAQ</h5>
+        <p class="card-text">Quick solutions for common issues like login errors, file uploads, and broken links within course pages.</p>
+        <a href="../professional education/helpdocuments.html" class="btn btn-primary">Learn More</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 9 -->
+  <div class="col-md-4">
+    <div class="card h-100 shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title">Accessibility Resources</h5>
+        <p class="card-text">Explore the tools and settings designed to support students with disabilities, including screen readers and keyboard navigation.</p>
+        <a href="../professional education/helpdocuments.html" class="btn btn-primary">Learn More</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+    
+            
+          </div>
+        </section>
+
+
+<!-- ===== Footer Start ===== -->
+<footer class="footer text-center text-lg-start py-5">
+  <div class="container">
+    <div class="row gy-4">
+
+      <!-- Logo & About -->
+      <div class="col-lg-4 col-md-6 text-start">
+        <h5 class="fw-bold text-primary mb-3">🦷 32Smiles</h5>
+        <p>
+          At 32Smiles, we combine modern dental science with gentle care 
+          to keep your smile bright and healthy.
+        </p>
+ <a href="../contact.html" class="btn btn-primary text-decoration-none" style="font-size: .80rem; display: flex; justify-content: center; align-items: center; font-weight: bold; height: 35px; margin-top: 5px; margin-right: 80px; width: 160px;">Make Appointments</a>
+     
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-lg-2 col-md-6 text-start">
+        <h6 class="fw-bold text-primary mb-3">Quick Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="../index.html" class="footer-link">Home</a></li>
+          <li><a href="../Research/" class="footer-link">Research</a></li>
+          <li><a href="../sitemap.html" class="footer-link">SiteMap</a></li>
+          <li><a href="../contact.html" class="footer-link">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div class="col-lg-3 col-md-6 text-start">
+        <h6 class="fw-bold text-primary mb-3">Our Services</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="footer-link">Teeth Whitening</a></li>
+          <li><a href="#" class="footer-link">Braces & Aligners</a></li>
+          <li><a href="#" class="footer-link">Dental Implants</a></li>
+          <li><a href="#" class="footer-link">Root Canal</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-lg-3 col-md-6 text-start">
+        <h6 class="fw-bold text-primary mb-3">Contact Us</h6>
+        <p class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i>123 Smile Street, Lahore, Pakistan</p>
+        <p class="mb-1"><i class="bi bi-telephone-fill me-2"></i>‪+92 300 1234567‬</p>
+        <p class="mb-3"><i class="bi bi-envelope-fill me-2"></i>info@32smiles.com</p>
+
+        <div class="social-icons">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="mt-5 mb-3 border-light opacity-25">
+
+    <div class="text-center">
+      <small>© 2025 32Smiles Dental Care — All Rights Reserved.</small>
+    </div>
+  </div>
+</footer>
+<!-- ===== Footer End ===== -->
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
