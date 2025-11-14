@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casestudies | 32smiles</title>
+  <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+ 
+    <link rel="stylesheet" href="../style.css">
+
+   <style>
+/* Kids Products Styling */
+
+
+.kids-products p {
+  
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 15px auto 0;
+}
+
+.kids-card {
+  border: solid 1px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  height: 100%;
+}
+
+.kids-card img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.4s ease;
+}
+
+.kids-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.kids-card h5 {
+  color: #004aad;
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-bottom: 10px;
+}
+.kids-card p{
+  font-size: 0.95rem;
+  color: black;
+  line-height: 1.6;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .kids-card img {
+    height: 180px;
+  }
+}
+
+</style>
+
+</head>
+<body>
+
+<!-- Navbar Start -->
+ 
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">🦷 32smiles</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto">
+
+        <!-- Home -->
+        <li class="nav-item">
+          <a class="nav-link active" href="../index.html">Home</a>
+        </li>
+
+        <!-- Professional Education Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="professionalDropdown" role="button" data-bs-toggle="dropdown">
+            Professional Education
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../professional education/findcourses.html">Find Courses</a></li>
+            <li><a class="dropdown-item" href="../professional education/helpdocuments.html">Help Documents</a></li>
+            <li><a class="dropdown-item" href="../professional education/facultyresourses.html">Faculty Resources</a></li>
+            <li><a class="dropdown-item" href="../professional education/studentresourses.html">Student Resources</a></li>
+            <li><a class="dropdown-item" href="../professional education/casestudies.html">Case Studies</a></li>
+          </ul>
+        </li>
+
+        <!-- Patient Education Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="../32smiles/patientdropdown/" id="patientDropdown" role="button" data-bs-toggle="dropdown">
+            Patient Education
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../32smiles/patientdropdown/oralhygienetips.html">Oral Hygiene Tips</a></li>
+            <li><a class="dropdown-item" href="../32smiles/patientdropdown/Dentalproblem.html">Common Dental Problems</a></li>
+            <li><a class="dropdown-item" href="../patient education/dental treatment.html">Treatment Procedures</a></li>
+            <li><a class="dropdown-item" href="../32smiles/patientdropdown/FAQs.html">FAQs</a></li>
+          </ul>
+        </li>
+
+        <!-- Research Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="researchDropdown" role="button" data-bs-toggle="dropdown">
+            Research
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../research/medialibrary.html">Media Library</a></li>
+            <li><a class="dropdown-item" href="../research/documents.html">Documents</a></li>
+          </ul>
+        </li>
+
+        <!-- Products Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown">
+            Products
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../products/Toothpaste.html">Toothpastes</a></li>
+            <li><a class="dropdown-item" href="../products/Toothbrushes.html">Toothbrushes</a></li>
+            <li><a class="dropdown-item" href="../Products/kid's products.html">Kids' Products</a></li>
+            <li><a class="dropdown-item" href="../products/Electrical Accessories.html">Electrical Accessories</a></li>
+          </ul>
+        </li>
+
+        <!-- Site Map -->
+        <li class="nav-item">
+          <a class="nav-link " href="../sitemap.html">Site Map</a>
+        </li>
+
+        <!-- Contact Us -->
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+  
+         <a href="../contact.html" class="btn btn-primary text-decoration-none" style="font-size: .80rem; display: flex; justify-content: center; align-items: center; font-weight: bold; height: 35px; margin-top: 6px; margin-left: 15px; width: 200px;" >Make Appointments</a>
+  
+  
+ </nav>
+<!-- Navbar End -->
+
+
+
+<!-- Kids Products Page Content Start -->
+<section class="kids-products py-5">
+  <div class="container">
+    <h2 class="text-center" id="h2">Kid's Dental Care Products</h2>
+    <p class="text-center mb-5" id="p3">
+      Fun, safe, and effective dental care made just for kids! 
+      Explore our colorful toothbrushes and fruity toothpaste flavors designed to make brushing exciting.
+    </p>
+
+    <div class="row g-4">
+
+      <!-- Product 1 -->
+      <div class="col-md-4">
+        <div class="kids-card text-center p-3">
+          <img src="../pictures/stawberry paste.webp" alt="Kids Strawberry Toothpaste" class="img-fluid rounded mb-3">
+          <h5 class="fw-bold">Kid's Strawberry Toothpaste</h5>
+          <p class="text-dark">
+            Delicious strawberry flavor with cavity protection and gentle fluoride
+            making brushing both fun and healthy for children aged 3+.
+          </p>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="col-md-4">
+        <div class="kids-card text-center p-3">
+          <img src="../pictures/kid fun brush.jpeg" alt="Kids Fun Toothbrush" class="img-fluid rounded mb-3">
+          <h5 class="fw-bold">Kid's Fun Toothbrush</h5>
+          <p class="text-dark">
+            Soft bristles and ergonomic grip handle designed for little hands
+            with bright colors and cartoon characters your kids will love.
+          </p>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="col-md-4">
+        <div class="kids-card text-center p-3">
+          <img src="../pictures/bubblegum paste.jpg" alt="Bubblegum Toothpaste" class="img-fluid rounded mb-3">
+          <h5 class="fw-bold">kid's Bubblegum Toothpaste</h5>
+          <p class="text-dark">
+            A fun bubblegum taste that encourages daily brushing. 
+            Gentle on enamel yet tough on cavities perfect for ages 6 and above.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row g-4 mt-4">
+
+      <!-- Product 4 -->
+      <div class="col-md-4">
+        <div class="kids-card text-center p-3">
+          <img src="../pictures/kid electric brush.png" alt="Kids Electric Toothbrush" class="img-fluid rounded mb-3">
+          <h5 class="fw-bold">Kid's Electric Toothbrush</h5>
+          <p class="text-dark">
+            Vibrant battery powered toothbrush with soft vibrations and timer feature 
+            helps teach proper brushing habits from an early age.
+          </p>
+        </div>
+      </div>
+
+      <!-- Product 5 -->
+      <div class="col-md-4">
+        <div class="kids-card text-center p-3">
+          <img src="../pictures/kids dental kit.jpeg" alt="Kids Dental Kit" class="img-fluid rounded mb-3">
+          <h5 class="fw-bold">Kid's Complete Dental Kit</h5>
+          <p class="text-dark">
+            Includes toothbrush, toothpaste, and rinse cup
+            all in a fun and colorful set that makes brushing an exciting daily routine.
+          </p>
+        </div>
+      </div>
+
+      <!-- Product 6 -->
+      <div class="col-md-4">
+        <div class="kids-card text-center p-3">
+          <img src="../pictures/mango paste.webp" alt="Mango Toothpaste" class="img-fluid rounded mb-3">
+          <h5 class="fw-bold">kid's Mango Magic Toothpaste</h5>
+          <p class="text-dark">
+            Tropical mango flavored toothpaste that your child will adore
+            gentle fluoride for healthy growing teeth.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- Kids Products Page Content End -->
+
+
+
+
+
+
+
+<!-- ===== Footer Start ===== -->
+<footer class="footer text-center text-lg-start py-5">
+  <div class="container">
+    <div class="row gy-4">
+
+      <!-- Logo & About -->
+      <div class="col-lg-4 col-md-6 text-start">
+        <h5 class="fw-bold text-primary mb-3">🦷 32Smiles</h5>
+        <p>
+          At 32Smiles, we combine modern dental science with gentle care 
+          to keep your smile bright and healthy.
+        </p>
+ <a href="../contact.html" class="btn btn-primary text-decoration-none" style="font-size: .80rem; display: flex; justify-content: center; align-items: center; font-weight: bold; height: 35px; margin-top: 5px; margin-right: 80px; width: 160px;">Make Appointments</a>
+     
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-lg-2 col-md-6 text-start">
+        <h6 class="fw-bold text-primary mb-3">Quick Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="../index.html" class="footer-link">Home</a></li>
+          <li><a href="../Research/" class="footer-link">Research</a></li>
+          <li><a href="../sitemap.html" class="footer-link">sitemap</a></li>
+          <li><a href="../contact.html" class="footer-link">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div class="col-lg-3 col-md-6 text-start">
+        <h6 class="fw-bold text-primary mb-3">Our Services</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="footer-link">Teeth Whitening</a></li>
+          <li><a href="#" class="footer-link">Braces & Aligners</a></li>
+          <li><a href="#" class="footer-link">Dental Implants</a></li>
+          <li><a href="#" class="footer-link">Root Canal</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-lg-3 col-md-6 text-start">
+        <h6 class="fw-bold text-primary mb-3">Contact Us</h6>
+        <p class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i>123 Smile Street, Lahore, Pakistan</p>
+        <p class="mb-1"><i class="bi bi-telephone-fill me-2"></i>‪+92 300 1234567‬</p>
+        <p class="mb-3"><i class="bi bi-envelope-fill me-2"></i>info@32smiles.com</p>
+
+        <div class="social-icons">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="mt-5 mb-3 border-light opacity-25">
+
+    <div class="text-center">
+      <small>© 2025 32Smiles Dental Care — All Rights Reserved.</small>
+    </div>
+  </div>
+</footer>
+<!-- ===== Footer End ===== -->
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

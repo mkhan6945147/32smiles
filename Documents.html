@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casestudies | 32smiles</title>
+ <!-- Bootstrap 5 CDN -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+ 
+    <link rel="stylesheet" href="../style.css">
+
+   <style>
+.section-docs {
+  background-color: #f8f9fa;
+  padding: 60px 20px;
+}
+.section-docs h2 {
+  color: #004aad;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.doc-item {
+  background: #fff;
+  border-left: 6px solid #004aad;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.doc-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+.doc-title {
+  color: #004aad;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.doc-desc {
+  font-size: 0.95rem;
+  color: black;
+  margin: 5px 0 10px;
+}
+
+.highlight-box {
+  background-color: #e9f1ff;
+  border-left: 5px solid #004aad;
+  padding: 20px;
+  border-radius: 18px;
+}
+.highlight-box h5 {
+  color: #004aad;
+  font-weight: 600;
+}
+</style>
+
+</head>
+<body>
+
+<!-- Navbar Start -->
+ 
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">🦷 32smiles</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto">
+
+        <!-- Home -->
+        <li class="nav-item">
+          <a class="nav-link active" href="../index.html">Home</a>
+        </li>
+
+        <!-- Professional Education Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="../professional education/" id="professionalDropdown" role="button" data-bs-toggle="dropdown">
+            Professional Education
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../professional education/findcourses.html">Find Courses</a></li>
+            <li><a class="dropdown-item" href="../professional education/helpdocuments.html">Help Documents</a></li>
+            <li><a class="dropdown-item" href="../professional education/facultyresourses.html">Faculty Resources</a></li>
+            <li><a class="dropdown-item" href="../professional education/studentresourses.html">Student Resources</a></li>
+            <li><a class="dropdown-item" href="../professional education/casestudies.html">Case Studies</a></li>
+          </ul>
+        </li>
+
+        <!-- Patient Education Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="../32smiles/patientdropdown/" id="patientDropdown" role="button" data-bs-toggle="dropdown">
+            Patient Education
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../32smiles/patientdropdown/oralhygienetips.html">Oral Hygiene Tips</a></li>
+            <li><a class="dropdown-item" href="../32smiles/patientdropdown/Dentalproblem.html">Common Dental Problems</a></li>
+            <li><a class="dropdown-item" href="../patient education/dental treatment.html">Treatment Procedures</a></li>
+            <li><a class="dropdown-item" href="../32smiles/patientdropdown/FAQs.html">FAQs</a></li>
+          </ul>
+        </li>
+
+        <!-- Research Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="../Research/" id="researchDropdown" role="button" data-bs-toggle="dropdown">
+            Research
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../research/medialibrary.html">Media Library</a></li>
+            <li><a class="dropdown-item" href="../research/documents.html">Documents</a></li>
+          </ul>
+        </li>
+
+        <!-- Products Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="../Products/" id="productsDropdown" role="button" data-bs-toggle="dropdown">
+            Products
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../products/toothpaste.html">Toothpastes</a></li>
+            <li><a class="dropdown-item" href="../products/toothbrushes.html">Toothbrushes</a></li>
+            <li><a class="dropdown-item" href="../products/kidsproducts.html">Kids' Products</a></li>
+            <li><a class="dropdown-item" href="../products/electricalaccessories.html">Electrical Accessories</a></li>
+          </ul>
+        </li>
+
+        <!-- Site Map -->
+        <li class="nav-item">
+          <a class="nav-link " href="../sitemap.html">Site Map</a>
+        </li>
+
+        <!-- Contact Us -->
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+  
+       <!-- <button type="submit" id="button3" data-bs-toggle="button">Make Appointments</button> -->
+           <a href="contact.html" class="btn btn-primary text-decoration-none" style="font-size: .80rem; display: flex; justify-content: center; align-items: center; font-weight: bold; height: 35px; margin-top: 6px; margin-left: 15px; width: 200px;" >Make Appointments</a>
+
+ 
+  
+
+ </nav>
+<!-- Navbar End -->
+
+
+<section class="section-docs">
+  <div class="container">
+    <h2 id="h2">Research Documents</h2>
+    <p class="text-center text-muted" id="p3">Our research collection covers clinical insights, academic papers, and innovation studies conducted by dental experts at 32Smiles. Stay informed with our comprehensive documentation resources.</p>
+
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <div class="doc-item">
+          <div class="doc-title">Clinical Study: Impact of Fluoride on Enamel Health</div>
+          <div class="doc-desc">An evidence-based report evaluating fluoride’s long-term benefits in cavity prevention and enamel strengthening.</div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="doc-item">
+          <div class="doc-title">Pediatric Dental Care Guidelines 2025</div>
+          <div class="doc-desc">A comprehensive guideline detailing the latest best practices for preventive pediatric dental care.</div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="doc-item">
+          <div class="doc-title">Orthodontic Case Documentation 2025</div>
+          <div class="doc-desc">Includes before-and-after documentation and case progression data from recent orthodontic treatments.</div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="doc-item">
+          <div class="doc-title">Digital Radiography Accuracy Report</div>
+          <div class="doc-desc">A detailed comparison between digital and analog X-ray imaging systems in terms of diagnostic precision.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Research Highlight -->
+    <div class="highlight-box mt-5">
+      <h5>Research Highlight: AI in Dental Diagnostics</h5>
+      <p class="mb-0">Our upcoming research focuses on the integration of artificial intelligence to detect early dental diseases from radiographs.
+      This initiative aims to improve diagnostic accuracy and reduce patient chair-time, redefining the future of digital dentistry.</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<!-- ===== Footer Start ===== -->
+<footer class="footer text-center text-lg-start py-5">
+  <div class="container">
+    <div class="row gy-4">
+
+      <!-- Logo & About -->
+      <div class="col-lg-4 col-md-6 text-start">
+        <h5 class="fw-bold text-primary mb-3">🦷 32Smiles</h5>
+        <p>
+          At 32Smiles, we combine modern dental science with gentle care 
+          to keep your smile bright and healthy.
+        </p>
+ <a href="contact.html" class="btn btn-primary text-decoration-none" style="font-size: .80rem; display: flex; justify-content: center; align-items: center; font-weight: bold; height: 35px; margin-top: 5px; margin-right: 80px; width: 160px;">Make Appointments</a>
+     
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-lg-2 col-md-6 text-start">
+        <h6 class="fw-bold text-primary mb-3">Quick Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="../index.html" class="footer-link">Home</a></li>
+          <li><a href="../Research/" class="footer-link">Research</a></li>
+          <li><a href="../sitemap.html" class="footer-link">SiteMap</a></li>
+          <li><a href="../contact.html" class="footer-link">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div class="col-lg-3 col-md-6 text-start">
+        <h6 class="fw-bold text-primary mb-3">Our Services</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="footer-link">Teeth Whitening</a></li>
+          <li><a href="#" class="footer-link">Braces & Aligners</a></li>
+          <li><a href="#" class="footer-link">Dental Implants</a></li>
+          <li><a href="#" class="footer-link">Root Canal</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-lg-3 col-md-6 text-start">
+        <h6 class="fw-bold text-primary mb-3">Contact Us</h6>
+        <p class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i>123 Smile Street, Lahore, Pakistan</p>
+        <p class="mb-1"><i class="bi bi-telephone-fill me-2"></i>‪+92 300 1234567‬</p>
+        <p class="mb-3"><i class="bi bi-envelope-fill me-2"></i>info@32smiles.com</p>
+
+        <div class="social-icons">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="mt-5 mb-3 border-light opacity-25">
+
+    <div class="text-center">
+      <small>© 2025 32Smiles Dental Care — All Rights Reserved.</small>
+    </div>
+  </div>
+</footer>
+<!-- ===== Footer End ===== -->
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
